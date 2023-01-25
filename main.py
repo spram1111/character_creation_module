@@ -20,7 +20,7 @@ def defence(char_name, char_class):
         return (f'{char_name} блокировал {10 + randint(-2, 2)} урона')
     if char_class == 'healer':
         return (f'{char_name} блокировал {10 + randint(2, 5)} урона')
-    
+
 
 def special(char_name, char_class):
     if char_class == 'warrior':
